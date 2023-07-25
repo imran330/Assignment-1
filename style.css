@@ -1,59 +1,142 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
     margin: 0;
-    
+
 }
-.first-section{
+
+.first-section {
+    display: flex;
     background: rgba(229, 84, 115, 0.10);
-    background-image: url(Images/pngwing\ 10.png) ;
-    /* background-size: 635px 800px; */
-    background-repeat: no-repeat;
-    background-position: bottom right;
     height: 850px;
     padding-left: 240px;
     padding-right: 240px;
-    
-}
-.flower-heading{
-    color: #272727;
-font-size: 80px;
-font-weight: 800;
-padding-top: 197px;
-width: 708px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+
 }
 
-.flower-description{
+.flower-heading {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    padding-top: 197px;
+    width: 708px;
+}
+
+.flower-description {
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-width: 634px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    padding-bottom: 20px;
 }
-.btn{
+
+.btn {
     border-radius: 8px;
-background-color: #E55473;
-display: inline-flex;
-padding: 20px 43px;
-gap: 10px;
-border: none;
-color: #FFFFFF;
+    background-color: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    gap: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 15px;
+
+
 }
-.featured-section{
+
+/* Feature Section Start */
+
+.featured-section {
     margin-top: 178px;
     margin-bottom: 128px;
     padding-left: 240px;
     padding-right: 240px;
 }
-.featured-heading{
+
+.featured-heading {
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
-.featured-description{
+
+.featured-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-   
+
+}
+
+.flower {
+    display: flex;
+    gap: 24px;
+}
+
+.rose-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    text-align: center;
+}
+
+.rose {
+    padding: 110px 78px 0px 76;
+    margin-top: 110px;
+}
+
+.pink-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+
+}
+
+.red-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.red {
+    padding: 117px 47px 51px 47px;
+
+}
+
+.yellow-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.yellow {
+    padding: 67px 75 0 75;
+    margin-top: 67px;
+}
+
+/* Feature section end */
+
+.delivery {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+    /* max-width: 1440px; */
+    /* height: 320px; */
+    /* padding-top: 200px; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    
 }
