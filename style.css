@@ -1,8 +1,59 @@
 body{
     font-family: 'Lato', sans-serif;
     margin: 0;
-    padding: 0;
+    
 }
-header{
+.first-section{
     background: rgba(229, 84, 115, 0.10);
+    background-image: url(Images/pngwing\ 10.png) ;
+    /* background-size: 635px 800px; */
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 850px;
+    padding-left: 240px;
+    padding-right: 240px;
+    
+}
+.flower-heading{
+    color: #272727;
+font-size: 80px;
+font-weight: 800;
+padding-top: 197px;
+width: 708px;
+}
+
+.flower-description{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+width: 634px;
+}
+.btn{
+    border-radius: 8px;
+background-color: #E55473;
+display: inline-flex;
+padding: 20px 43px;
+gap: 10px;
+border: none;
+color: #FFFFFF;
+}
+.featured-section{
+    margin-top: 178px;
+    margin-bottom: 128px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.featured-heading{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   
 }
