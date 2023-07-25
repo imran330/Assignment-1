@@ -11,10 +11,10 @@ body {
     padding-left: 240px;
     padding-right: 240px;
     padding-top: 50px;
-    
+
 }
 
-.banner-text{
+.banner-text {
     padding-bottom: 40px;
 }
 
@@ -23,7 +23,7 @@ body {
     font-size: 80px;
     font-weight: 800;
     padding-top: 197px;
-    
+
 }
 
 .flower-description {
@@ -52,7 +52,7 @@ body {
 /* Feature Section Start */
 
 .featured-section {
-    max-width:  auto;
+    max-width: auto;
     margin: auto;
     padding-left: 100px;
     padding-right: 100px;
@@ -139,5 +139,16 @@ body {
     align-items: center;
     text-align: center;
     margin: auto;
-    
+    margin-bottom: 100px;
+
+}
+
+.hot-deal {
+    display: flex;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-between;
+    /* margin: auto; */
+    padding-left: 100px;
+    padding-right: 100px;
+    vertical-align: center;
 }
