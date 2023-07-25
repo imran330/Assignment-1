@@ -11,9 +11,11 @@ body {
     padding-left: 240px;
     padding-right: 240px;
     padding-top: 50px;
-    padding-bottom: 30px;
+    
+}
 
-
+.banner-text{
+    padding-bottom: 40px;
 }
 
 .flower-heading {
@@ -21,7 +23,7 @@ body {
     font-size: 80px;
     font-weight: 800;
     padding-top: 197px;
-    width: 708px;
+    
 }
 
 .flower-description {
@@ -50,10 +52,10 @@ body {
 /* Feature Section Start */
 
 .featured-section {
-    margin-top: 178px;
-    margin-bottom: 128px;
-    padding-left: 240px;
-    padding-right: 240px;
+    max-width:  auto;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .featured-heading {
@@ -74,6 +76,7 @@ body {
 .flower {
     display: flex;
     gap: 24px;
+    margin-bottom: 200px;
 }
 
 .rose-flower {
@@ -85,8 +88,7 @@ body {
 }
 
 .rose {
-    padding: 110px 78px 0px 76;
-    margin-top: 110px;
+    padding: 110px 50px 0px 50px;
 }
 
 .pink-text {
@@ -107,7 +109,7 @@ body {
 }
 
 .red {
-    padding: 117px 47px 51px 47px;
+    padding: 117px 50px 51px 50px;
 
 }
 
@@ -119,8 +121,7 @@ body {
 }
 
 .yellow {
-    padding: 67px 75 0 75;
-    margin-top: 67px;
+    padding: 67px 50px 0 50px;
 }
 
 /* Feature section end */
@@ -129,14 +130,14 @@ body {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
-    padding-left: 240px;
-    padding-right: 240px;
-    /* max-width: 1440px; */
-    /* height: 320px; */
+    padding-right: 56px;
+    padding-left: 40px;
+    max-width: 1240px;
+    height: 320px;
     /* padding-top: 200px; */
     justify-content: space-between;
     align-items: center;
     text-align: center;
-
+    margin: auto;
     
 }
