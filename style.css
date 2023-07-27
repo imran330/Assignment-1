@@ -202,8 +202,8 @@ span {
     border-radius: 8px;
     background-repeat: no-repeat;
     text-align: center;
-
-    margin: auto;
+    margin: 128px;
+    padding-bottom: 122px;
 }
 
 .deals-text {
@@ -228,5 +228,33 @@ span {
     background: #FFF;
     border: none;
     padding-left: 10px;
+    margin-right: 10px;
 }
 
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.footer-h {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.right{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
